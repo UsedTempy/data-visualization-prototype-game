@@ -67,7 +67,7 @@ public class GameManager : MonoBehaviour
         lastMoodFilter = FilterSettings.MoodFilter;
     }
 
-    private bool PassesFilters(User user)
+    public bool PassesFilters(User user)
     {
         // Age filter
         if (FilterSettings.AgeFilter > 0 && user.age < FilterSettings.AgeFilter)

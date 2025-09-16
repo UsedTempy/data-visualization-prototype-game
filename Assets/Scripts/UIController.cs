@@ -1,23 +1,7 @@
-using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
-
-public enum Genders
-{
-	None,
-	Male,
-	Female
-}
-
-public enum Moods
-{
-	None,
-	Depression,
-	Burnout
-}
 
 public class UIController : MonoBehaviour
 {
